@@ -1,0 +1,31 @@
+/* Add your hero section styles here */
+
+.hero-section {
+  /* Example styles */
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  background: linear-gradient(90deg, #1a1a2e 0%, #16213e 100%);
+  color: #fff;
+}
+
+.hero-section .hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-section .hero-overview {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.hero-section .hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
